@@ -1,0 +1,13 @@
+{
+  "ext.config.title": "HTTP Proxy Server Configuration",
+  "ext.config.port": "The port that the HTTP proxy server listens on.\nif `empty`, it will use a random available port.",
+  "ext.config.target": "The target url that the HTTP proxy server will proxy to.\nif `empty`, it will prompt to enter a valid URL.",
+  "ext.config.cors": "Enable `CORS` for proxy response.",
+  "ext.config.headers": "Custom response header.",
+  "status.server.on": "Proxy {0} >> {1}",
+  "status.server.tooltip": "Click to stop the proxy.",
+  "cmd.start.title": "Start HTTP proxy",
+  "cmd.stop.title": "Stop HTTP proxy",
+  "tip.enter_url": "Please enter the 'url' you want to proxy to. eg. `http://example.com`",
+  "err.invalid_url": "Invalid url."
+}

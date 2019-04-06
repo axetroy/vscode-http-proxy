@@ -1,0 +1,13 @@
+{
+  "ext.config.title": "靜態服務器配置",
+  "ext.config.port": "HTTP 代理服務器偵聽的端口。\n如果為`空`，它將使用隨機的可用端口。",
+  "ext.config.target": "HTTP 代理的目標 URL。\n如果為`空`，它將讓你輸入一個 URL 地址。",
+  "ext.config.cors": "開啟 `CORS(跨域)`.",
+  "ext.config.headers": "自定義響應頭。",
+  "status.server.on": "代理 {0} >> {1}",
+  "status.server.tooltip": "點擊關閉 HTTP 代理。",
+  "cmd.start.title": "開啟 HTTP 代理",
+  "cmd.stop.title": "關閉 HTTP 代理",
+  "tip.enter_url": "請輸入您要代理的“網址”。例如 `http://example.com`。",
+  "err.invalid_url": "無效的 URL 地址。"
+}
