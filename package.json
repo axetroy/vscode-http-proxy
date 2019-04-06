@@ -87,7 +87,7 @@
         },
         "http-proxy.cors": {
           "type": "boolean",
-          "default": "false",
+          "default": false,
           "markdownDescription": "%ext.config.cors%"
         },
         "http-proxy.headers": {

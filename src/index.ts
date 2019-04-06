@@ -117,6 +117,9 @@ export async function activate(context: vscode.ExtensionContext) {
       const source = `http://${host}:${port}`;
 
       const statusBarMsg = localize("status.server.on", source, target);
+
+      await vscode.window.showInformationMessage(statusBarMsg);
+
       statusbar = vscode.window.createStatusBarItem(
         vscode.StatusBarAlignment.Left
       );
