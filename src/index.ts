@@ -40,7 +40,9 @@ export async function activate(context: vscode.ExtensionContext) {
       currentServer = undefined;
     }
     await updateContext(void 0);
-    statusbar.dispose();
+    if (statusbar) {
+      statusbar.dispose();
+    }
   }
 
   context.subscriptions.push(
@@ -118,7 +120,7 @@ export async function activate(context: vscode.ExtensionContext) {
 
       const statusBarMsg = localize("status.server.on", source, target);
 
-      await vscode.window.showInformationMessage(statusBarMsg);
+      vscode.window.showInformationMessage(statusBarMsg);
 
       statusbar = vscode.window.createStatusBarItem(
         vscode.StatusBarAlignment.Left
