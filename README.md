@@ -1,5 +1,7 @@
 # vscode-http-proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/vscode-http-proxy.svg)](https://greenkeeper.io/)
+
 An vscode extension to start HTTP proxy server.
 
 # Usage
