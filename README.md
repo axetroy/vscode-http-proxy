@@ -1,6 +1,6 @@
 # vscode-http-proxy
 
-an vscode extension to start HTTP proxy server.
+a vscode extension to start HTTP proxy server.
 
 # Usage
 
