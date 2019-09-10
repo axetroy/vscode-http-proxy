@@ -114,7 +114,7 @@
     "@types/open": "6.1.0",
     "move-cli": "1.2.1",
     "rimraf": "3.0.0",
-    "tslint": "5.19.0",
+    "tslint": "5.20.0",
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.6.2",
     "vscode": "1.1.36"
