@@ -122,7 +122,7 @@
   "dependencies": {
     "get-port": "^5.0.0",
     "http-proxy": "^1.17.0",
-    "internal-ip": "^4.2.0",
+    "internal-ip": "^5.0.0",
     "vscode-nls-i18n": "^0.1.1"
   }
 }
