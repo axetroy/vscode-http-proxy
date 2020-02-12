@@ -109,7 +109,7 @@
     "publish": "npx vsce publish"
   },
   "devDependencies": {
-    "@types/mocha": "5.2.7",
+    "@types/mocha": "7.0.1",
     "@types/node": "11.15.6",
     "@types/open": "6.1.0",
     "move-cli": "1.2.1",
