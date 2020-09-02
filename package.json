@@ -110,7 +110,7 @@
   },
   "devDependencies": {
     "@types/mocha": "8.0.3",
-    "@types/node": "11.15.20",
+    "@types/node": "11.15.21",
     "@types/open": "6.1.0",
     "move-cli": "1.2.1",
     "rimraf": "3.0.2",
